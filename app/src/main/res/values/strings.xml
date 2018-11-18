@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KotlinStarted</string>
+
+    <array name="listofheros">
+        <item>Anchit Sharma</item>
+        <item>Android developer</item>
+        <item>Qunatafic</item>
+    </array>
 </resources>

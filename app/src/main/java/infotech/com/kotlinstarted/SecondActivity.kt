@@ -12,9 +12,6 @@ class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
-        val intent: Intent = intent;
-        val name = intent.getSerializableExtra(MainActivity.KEY_NAME) as Hero
-        textWelcome = findViewById(R.id.txtWelcome);
-        textWelcome.text = "Hello I'm ${name.name} and My Real Name is ${name.realName}";
+
     }
 }
